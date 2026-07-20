@@ -31,9 +31,8 @@ This project demonstrates core Java programming concepts, Object-Oriented Progra
 # 🏗️ System Flowchart
 
 <p align="center">
-  <img src="screenshots/flowchart.png" width="900">
+    <img src="./flowchart.png" width="900">
 </p>
-
 ---
 
 ## 🧠 Algorithm Used
