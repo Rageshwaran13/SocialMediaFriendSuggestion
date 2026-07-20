@@ -1,88 +1,183 @@
-# Social Media Friend Suggestion System
+# 🚀 Social Media Friend Suggestion System
 
-## Overview
-
-The Social Media Friend Suggestion System is a Java-based Low-Level Design (LLD) project that simulates a simple social network. It allows users to create friendships, view their friends, and receive friend recommendations using the Breadth-First Search (BFS) graph algorithm.
+A **Java Low-Level Design (LLD)** project that simulates a social networking platform and recommends friends using the **Breadth-First Search (BFS)** graph traversal algorithm.
 
 ---
 
-## Features
+## 📌 Project Overview
 
-- Add a new user
-- Remove an existing user
-- Add friendship between users
-- Remove friendship
-- Display all users
-- Display a user's friends
-- Suggest friends using BFS
-- Display complete social network
-- Show network statistics
-- Find the shortest connection between two users
+The **Social Media Friend Suggestion System** models users and friendships as a graph. It enables users to create friendships, remove friendships, discover new friends through **BFS-based friend recommendation**, and find the **shortest connection path** between any two users.
+
+This project demonstrates core Java programming concepts, Object-Oriented Programming (OOP), Graph Data Structures, and Low-Level Design principles.
 
 ---
 
-## Technologies Used
+## ✨ Features
 
-- Java
+- 👤 Add User
+- ❌ Remove User
+- 🤝 Add Friendship
+- 💔 Remove Friendship
+- 👥 Display All Users
+- 📋 Display Friends
+- 🔍 Friend Suggestion using Breadth-First Search (BFS)
+- 🌐 Display Complete Social Network
+- 📊 Network Statistics
+- 🛣️ Shortest Connection Between Users (BFS)
+- 📌 Menu-Driven Console Application
+
+---
+
+# 🏗️ System Flowchart
+
+<p align="center">
+  <img src="screenshots/flowchart.png" width="900">
+</p>
+
+---
+
+## 🧠 Algorithm Used
+
+### Breadth-First Search (BFS)
+
+BFS explores the friendship graph level by level.
+
+It is used for:
+
+- Friend Recommendation
+- Shortest Connection Between Users
+- Graph Traversal
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Java | Programming Language |
+| OOP | Object-Oriented Design |
+| HashMap | User Repository |
+| HashSet | Friend Storage |
+| Queue | BFS Traversal |
+| LinkedList | Queue Implementation |
+| Graph | Social Network Representation |
+
+---
+
+## 📂 Project Structure
+
+```text
+SocialMediaFriendSuggestion
+│
+├── FriendSuggestionService.java
+├── Main.java
+├── User.java
+├── UserRepository.java
+├── README.md
+└── screenshots
+      └── flowchart.png
+```
+
+---
+
+## ⚙️ Functional Modules
+
+### 👤 User Management
+
+- Add User
+- Remove User
+- Display Users
+
+---
+
+### 🤝 Friendship Management
+
+- Add Friendship
+- Remove Friendship
+- Display Friends
+
+---
+
+### 🔍 Friend Recommendation
+
+Uses **Breadth-First Search (BFS)** to recommend users who are connected through mutual friendships.
+
+---
+
+### 🛣️ Shortest Connection
+
+Finds the shortest friendship path between two users using BFS.
+
+Example:
+
+```text
+Alice
+   ↓
+Bob
+   ↓
+David
+```
+
+Output
+
+```text
+Alice → Bob → David
+```
+
+---
+
+### 📊 Network Statistics
+
+Displays:
+
+- Total Users
+- Total Friendships
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped in understanding:
+
 - Object-Oriented Programming (OOP)
-- Collections Framework
+- Encapsulation
+- Repository Pattern
+- Service Layer Design
+- Java Collections Framework
 - Graph Data Structure
 - Breadth-First Search (BFS)
-- HashMap
-- HashSet
-- Queue (LinkedList)
+- Low-Level Design Principles
 
 ---
 
-## Project Structure
+## 🚀 Future Enhancements
 
-```
-SocialMediaFriendSuggestion/
-│
-├── src/
-│   ├── Main.java
-│   ├── User.java
-│   ├── UserRepository.java
-│   └── FriendSuggestionService.java
-│
-├── README.md
-├── .gitignore
-└── screenshots/
-```
-
----
-
-## Sample Output
-
-```
-========= SOCIAL MEDIA FRIEND SUGGESTION SYSTEM =========
-
-1. Display Users
-2. Add User
-3. Remove User
-4. Add Friendship
-5. Remove Friendship
-6. Display Friends
-7. Suggest Friends (BFS)
-8. Display Complete Network
-9. Network Statistics
-10. Shortest Connection
-0. Exit
-```
-
----
-
-## Algorithms Used
-
-- Breadth-First Search (BFS)
-- Graph Traversal
-- Shortest Path Search
-
----
-
-## Future Improvements
-
-- Friend Request System
 - User Authentication
+- Friend Request System
+- Mutual Friend Ranking
+- GUI using JavaFX
 - Database Integration (MySQL)
-- JavaFX
+- Spring Boot REST API
+- Web Application Version
+- AI-Based Friend Recommendation
+
+---
+
+## 👨‍💻 Author
+
+**Rageshwaran P**
+
+B.E. Electrical and Electronics Engineering
+
+Kalaignarkarunanidhi Institute of Technology
+
+GitHub:
+https://github.com/Rageshwaran13
+
+---
+
+## ⭐ If you like this project
+
+Give this repository a ⭐ on GitHub!
+
+It motivates me to build more Java projects.
