@@ -1,10 +1,10 @@
-# 🚀 Social Media Friend Suggestion System
+#  Social Media Friend Suggestion System
 
 A **Java Low-Level Design (LLD)** project that simulates a social networking platform and recommends friends using the **Breadth-First Search (BFS)** graph traversal algorithm.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The **Social Media Friend Suggestion System** models users and friendships as a graph. It enables users to create friendships, remove friendships, discover new friends through **BFS-based friend recommendation**, and find the **shortest connection path** between any two users.
 
@@ -12,30 +12,30 @@ This project demonstrates core Java programming concepts, Object-Oriented Progra
 
 ---
 
-## ✨ Features
+##  Features
 
-- 👤 Add User
-- ❌ Remove User
-- 🤝 Add Friendship
-- 💔 Remove Friendship
-- 👥 Display All Users
-- 📋 Display Friends
-- 🔍 Friend Suggestion using Breadth-First Search (BFS)
-- 🌐 Display Complete Social Network
-- 📊 Network Statistics
-- 🛣️ Shortest Connection Between Users (BFS)
-- 📌 Menu-Driven Console Application
+-  Add User
+-  Remove User
+-  Add Friendship
+-  Remove Friendship
+-  Display All Users
+-  Display Friends
+-  Friend Suggestion using Breadth-First Search (BFS)
+-  Display Complete Social Network
+-  Network Statistics
+-  Shortest Connection Between Users (BFS)
+-  Menu-Driven Console Application
 
 ---
 
-# 🏗️ System Flowchart
+#  System Flowchart
 
 <p align="center">
     <img src="./flowchart.png" width="900">
 </p>
 ---
 
-## 🧠 Algorithm Used
+##  Algorithm Used
 
 ### Breadth-First Search (BFS)
 
@@ -49,7 +49,7 @@ It is used for:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
@@ -63,7 +63,7 @@ It is used for:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 SocialMediaFriendSuggestion
@@ -79,9 +79,9 @@ SocialMediaFriendSuggestion
 
 ---
 
-## ⚙️ Functional Modules
+##  Functional Modules
 
-### 👤 User Management
+###  User Management
 
 - Add User
 - Remove User
@@ -89,7 +89,7 @@ SocialMediaFriendSuggestion
 
 ---
 
-### 🤝 Friendship Management
+###  Friendship Management
 
 - Add Friendship
 - Remove Friendship
@@ -97,13 +97,13 @@ SocialMediaFriendSuggestion
 
 ---
 
-### 🔍 Friend Recommendation
+###  Friend Recommendation
 
 Uses **Breadth-First Search (BFS)** to recommend users who are connected through mutual friendships.
 
 ---
 
-### 🛣️ Shortest Connection
+###  Shortest Connection
 
 Finds the shortest friendship path between two users using BFS.
 
@@ -125,7 +125,7 @@ Alice → Bob → David
 
 ---
 
-### 📊 Network Statistics
+###  Network Statistics
 
 Displays:
 
@@ -134,7 +134,7 @@ Displays:
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 This project helped in understanding:
 
@@ -149,7 +149,7 @@ This project helped in understanding:
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - User Authentication
 - Friend Request System
@@ -162,7 +162,7 @@ This project helped in understanding:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Rageshwaran P**
 
@@ -170,13 +170,6 @@ B.E. Electrical and Electronics Engineering
 
 Kalaignarkarunanidhi Institute of Technology
 
-GitHub:
-https://github.com/Rageshwaran13
-
 ---
-
-## ⭐ If you like this project
-
-Give this repository a ⭐ on GitHub!
 
 It motivates me to build more Java projects.
